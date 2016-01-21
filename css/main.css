@@ -1,0 +1,36 @@
+.main{
+}
+.logo{
+  position: relative;
+  background: url('https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png') no-repeat;
+  background-size: 272px 92px;
+  width: 272px;
+  height: 92px;
+  margin: 0 auto 35px;
+}
+.logo h4{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: roboto;
+  color: #4285f4;
+}
+.search-form{
+  position: relative;
+  width: 478px;
+  margin: 0 auto;
+  text-align: center;
+}
+#search{
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 10px;
+}
+span{
+  position: absolute;
+  right: 20px;
+}

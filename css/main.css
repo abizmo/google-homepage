@@ -19,18 +19,39 @@
 }
 .search-form{
   position: relative;
-  width: 478px;
+  width: 500px;
   margin: 0 auto;
   text-align: center;
 }
-#search{
-  width: 100%;
+.search-box{
   border: 1px solid #ddd;
+  padding: 10px 5px;
+  display: inline-block;
+  width: 488px;
+}
+.mic{
+  background: url(../img/mic.png) no-repeat -3px 0;
+  background-size: 24px 24px;
+  height: 23px;
+  width: 17px;
+  display: inline-block;
+}
+#search{
   font-size: 16px;
   line-height: 16px;
-  padding: 10px;
+  border: none;
+  outline: none;
+  float: left;
+  width: 460px;
 }
-span{
-  position: absolute;
-  right: 20px;
+input[type=submit]{
+  border: none;
+    border-radius: 3px;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #757575;
+    background: #f2f2f2;
+    padding: 5px 15px!important;
+    margin: 25px 4px !important;
 }

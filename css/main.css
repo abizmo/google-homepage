@@ -1,8 +1,53 @@
+body{
+  height: 100%;
+  width: 100%;
+  font-family: arial;
+}
+.header{
+  width:100%;
+  position: absolute;
+  top: 0px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+}
+li{
+  float: left;
+  opacity: 0.75;
+}
+li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 13px;
+  line-height: 24px;
+}
+li a div{
+  height: 32px;
+  width: 32px;
+}
+.icons{
+  padding: 6px 16px;
+}
+#profile{
+  background: url(../img/profile-pic.jpg) no-repeat;
+  opacity: 1;
+  background-size: 32px;
+  border-radius: 50%;
+}
 .main{
+  margin-top: 120px;
 }
 .logo{
   position: relative;
-  background: url('https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png') no-repeat;
+  background: url(../img/google-logo.png) no-repeat;
   background-size: 272px 92px;
   width: 272px;
   height: 92px;

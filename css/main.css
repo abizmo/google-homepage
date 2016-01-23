@@ -71,7 +71,7 @@ li a{
   border-radius: 50%;
 }
 .main{
-  margin-top: 120px;
+  margin-top: 190px;
 }
 .logo{
   position: relative;
@@ -127,4 +127,16 @@ input[type=submit]{
     background: #f2f2f2;
     padding: 5px 15px!important;
     margin: 25px 4px !important;
+}
+.footer{
+  width:100%;
+  position: fixed;
+  bottom: 0px;
+  background: #f2f2f2;
+  border-top: 1px solid #ccc;
+  height: 40px;
+}
+.footer li a{
+  color: #666;
+  line-height: 20px;
 }

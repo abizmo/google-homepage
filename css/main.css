@@ -17,29 +17,57 @@ ul{
 }
 li{
   float: left;
-  opacity: 0.75;
+}
+li.text{
+  opacity: 0.60;
 }
 li a{
   display: block;
   color: black;
   text-align: center;
-  padding: 10px 16px;
+  margin: 10px 16px;
   text-decoration: none;
   font-weight: 200;
   font-size: 13px;
-  line-height: 24px;
+  line-height: 32px;
 }
-li a div{
-  height: 32px;
-  width: 32px;
+.small{
+  background: rgba(0, 0, 0, 0.55);
+  height: 20px;
+  width: 20px;
+  margin: 16px;
 }
-.icons{
-  padding: 6px 16px;
+.square{
+  background: white;
+}
+.circle{
+  border-radius: 50%;
+}
+#apps{
+  background: url(../img/google-icons.png) no-repeat;
+  background-position: -138px -43px;
+  opacity: 0.55;
+  background-size: 528px 68px;
+  text-align: center;
+  height: 20px;
+  width: 20px;
+}
+#alert{
+  background: url(../img/google-icons.png) no-repeat;
+  background-position: -194px -21px;
+  opacity: 1;
+  background-size: 528px 68px;
+  text-align: center;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
 }
 #profile{
   background: url(../img/profile-pic.jpg) no-repeat;
   opacity: 1;
-  background-size: 32px;
+  background-size: 32px 32px;
+  height: 32px;
+  width: 32px;
   border-radius: 50%;
 }
 .main{
